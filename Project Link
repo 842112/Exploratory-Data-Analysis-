@@ -1,0 +1,43 @@
+https://colab.research.google.com/drive/1tnsPFXOPSxIPTsemsMEdB-uU0ZMmY3gJ?authuser=1#scrollTo=F6v_1wHtG2nS
+
+Summary of Airbnb NYC 2019 Analysis
+Introduction
+The Airbnb NYC 2019 dataset provides a comprehensive view of Airbnb listings across New York City, covering aspects like pricing, availability, host activity, and customer engagement. The objective of this analysis is to extract meaningful insights that can help hosts optimize their listings, improve pricing strategies, and enhance guest experiences. Additionally, it offers valuable information for policymakers and travelers to understand the Airbnb market in NYC.
+
+Dataset Overview
+Total Rows: 48,895
+Total Columns: 16
+Missing Values: 20,141
+Duplicate Rows: 0
+The dataset contains listing details, host information, reviews, and pricing, among other attributes. Key columns include name, host_name, neighbourhood, price, reviews_per_month, and last_review.
+
+Data Cleaning & Handling Missing Values
+name and host_name: Missing values replaced with "Unknown" to ensure consistency.
+last_review: Missing values replaced with "No Review" to indicate listings that have never been reviewed.
+reviews_per_month: Missing values replaced with 0, representing listings with no reviews.
+Confirmed that no duplicate rows exist, ensuring data integrity.
+Key Insights & Trends
+Listings Distribution & Neighborhood Trends
+
+The dataset covers all five boroughs: Manhattan, Brooklyn, Queens, Bronx, and Staten Island.
+Manhattan and Brooklyn have the highest number of listings, indicating higher Airbnb activity.
+Price and availability vary significantly across different neighborhoods.
+Pricing Analysis
+
+Prices range widely, with some high-end listings significantly affecting the average.
+Manhattan tends to have the highest average prices, while Queens and the Bronx offer more affordable options.
+Entire homes/apartments are the most expensive, followed by private rooms and shared rooms.
+Host & Listing Performance
+
+Some hosts manage multiple properties, indicating the presence of professional Airbnb operators.
+The number of reviews per month is a useful metric for identifying high-demand listings.
+Many listings have never been reviewed, which may indicate inactive or newly listed properties.
+Review & Customer Engagement Trends
+
+A significant number of listings have zero reviews per month, suggesting that not all properties attract guests consistently.
+Listings with frequent reviews tend to be competitively priced and located in high-demand areas.
+The last review date can help track Airbnb activity over time, identifying seasonal trends in bookings.
+Business Implications
+For Hosts: Optimize pricing and availability based on neighborhood trends to attract more bookings.
+For Travelers: Identify the best locations and listings based on price and review trends.
+For Policymakers: Assess Airbnb’s impact on local housing markets and short-term rental regulations.
